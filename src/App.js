@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+ 
 import "@aws-amplify/ui-react/styles.css";
 import {
   withAuthenticator,
@@ -14,10 +14,18 @@ function App({ signOut }) {
     <>  
 
     <h1>asif mahmud </h1>
+    <title> 
+    "You only live once, but if you do it right, 
+    once is enough."  
+    
+     — Mae West
+      
+      
+       </title>
     
       <View className="App">
       <Card>
-        <Image src={logo} className="App-logo" alt="logo" />
+        
         <Heading level={1}>We now have Auth!</Heading>
       </Card>
       <Button onClick={signOut}>Sign Out</Button>
